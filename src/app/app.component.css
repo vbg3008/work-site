@@ -242,20 +242,20 @@
 
     /* ......ourService...... */
     .ourservices{
-        padding: 65px 0px 60px;
-        height: 1200px;
+        padding: 80px 0px 60px;
+        height: 1300px;
     }
 
     /* ......projects.......... */
     .projects{
-        height: 2800px;
+        height: 2920px;
         width: 100%;
         padding: 48px 0px 200px;
     }
 
     /* ........ourteam........ */
     .ourteam{
-        height: 1200px;
+        height: 1300px;
         width: 100%;
         padding: 50px 0px 0px;   
     }
