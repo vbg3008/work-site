@@ -1,0 +1,304 @@
+/* image{
+    mask-image: -moz-linear-gradient(rgba(112, 95, 126, 0.295) , rgba(0,0,0,0));
+} */
+
+.bgimg{
+    /* background-image: url(../assets/2_coders.jpg) !important ; */
+    background: linear-gradient(to right, #009fff, #ec2f4b); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+}
+.headerset{
+    padding: 230px;
+    box-sizing: border-box;
+}
+.headerset  h2{
+    font-size: 25px;
+}
+.headerset  h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* ...........our services............... */
+.ourservices{
+    padding: 65px 0px 60px;
+    height: 700px;
+}
+
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.rowsetting{
+    margin: 80px 0px !important;
+}
+.rowsetting p{
+    color: #6c757d !important;
+    padding: 10px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 29px;
+}
+
+
+.imgsetting{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(101, 231, 101);
+}
+
+.fa-shopping-cart , .fa-desktop , .fa-shield-alt{
+    margin-top: 45px;
+}
+
+
+/* ................projects............ */
+.projects{
+    height: 1100px;
+    width: 100%;
+    padding: 48px 0px 50px;
+}
+
+.projects h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 35px;
+}
+
+
+/* ............our team.......... */
+.ourteam{
+    height: 600px;
+    width: 100%;
+    padding: 50px 0px 0px;   
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ourteam img{
+    height: 250px;
+    width: 250px;
+}
+
+.teamsetting{
+    margin-top: 80px !important;
+}
+
+
+/* .............responsive........ */
+
+@media(min-width:992px){
+    .bgimg{
+        height: 730px;
+    }
+
+    /* ......header........ */
+    .headerset{
+        padding: 100px;
+        padding-top: 280px;
+    }
+    .headerset  h2{
+        font-size: 17px;
+    }
+    .headerset  h3{
+        font-size: 25px;
+        font-weight: 900;
+    } 
+
+    /* ......ourService...... */
+    .ourservices{
+        padding: 65px 0px 60px;
+        height: 600px;
+    }
+
+    /* ......projects.......... */
+    .projects{
+        height: 1150px;
+        width: 100%;
+        padding: 48px 0px 200px;
+    }
+
+    /* ........ourteam........ */
+    .ourteam{
+        height: 600px;
+        width: 100%;
+        padding: 50px 0px 0px;  
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+
+
+    .bgimg{
+        height: 730px;
+    }
+
+    /* ......header........ */
+    .headerset{
+        padding: 100px;
+        padding-top: 280px;
+    }
+    .headerset  h2{
+        font-size: 17px;
+    }
+    .headerset  h3{
+        font-size: 25px;
+        font-weight: 900;
+    } 
+
+
+    /* ......ourService...... */
+    .ourservices{
+        padding: 65px 0px 60px;
+        height: 600px;
+    }
+
+    /* ......projects.......... */
+    .projects{
+        height: 1270px;
+        width: 100%;
+        padding: 48px 0px 200px;
+    }
+
+    /* ........ourteam........ */
+    .ourteam{
+        height: 600px;
+        width: 100%;
+        padding: 50px 0px 0px;  
+    }
+}
+@media(min-width:575px) and (max-width:767px){
+
+    .bgimg{
+        height: 755px;
+    }
+
+    /* ......header........ */
+    .headerset{
+        padding: 100px;
+        padding-top: 280px;
+    }
+    .headerset  h2{
+        font-size: 17px;
+    }
+    .headerset  h3{
+        font-size: 25px;
+        font-weight: 900;
+    } 
+
+
+    /* ......ourService...... */
+    .ourservices{
+        padding: 65px 0px 60px;
+        height: 650px;
+    }
+
+    /* ......projects.......... */
+    .projects{
+        height: 2800px;
+        width: 100%;
+        padding: 48px 0px 200px;
+    }
+
+    /* ........ourteam........ */
+    .ourteam{
+        height: 1200px;
+        width: 100%;
+        padding: 50px 0px 0px;   
+    }
+}
+@media(min-width:480px) and (max-width:574px){
+    .bgimg{
+        height: 770px;
+    }
+    
+    /* ......header........ */
+    .headerset{
+        padding: 100px;
+        padding-top: 280px;
+    }
+    .headerset  h2{
+        font-size: 17px;
+    }
+    .headerset  h3{
+        font-size: 25px;
+        font-weight: 900;
+    } 
+
+
+    /* ......ourService...... */
+    .ourservices{
+        padding: 65px 0px 60px;
+        height: 1200px;
+    }
+
+    /* ......projects.......... */
+    .projects{
+        height: 2800px;
+        width: 100%;
+        padding: 48px 0px 200px;
+    }
+
+    /* ........ourteam........ */
+    .ourteam{
+        height: 1200px;
+        width: 100%;
+        padding: 50px 0px 0px;   
+    }
+ 
+}
+@media(max-width:479px){
+    .bgimg{
+        height: 790px;
+    }
+
+    /* ......header........ */
+    .headerset{
+        padding: 100px;
+        padding-top: 280px;
+    }
+    .headerset  h2{
+        font-size: 17px;
+    }
+    .headerset  h3{
+        font-size: 25px;
+        font-weight: 900;
+    } 
+
+
+    /* ......ourService...... */
+    .ourservices{
+        padding: 65px 0px 60px;
+        height: 1230px;
+    }
+
+    /* ......projects.......... */
+    .projects{
+        height: 2900px;
+        width: 100%;
+        padding: 48px 0px 200px;
+    }
+
+    /* ........ourteam........ */
+    .ourteam{
+        height: 1260px;
+        width: 100%;
+        padding: 50px 0px 0px;   
+    }
+       
+}
+

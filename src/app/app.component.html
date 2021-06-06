@@ -1,0 +1,180 @@
+<!-- ..........Modal............... fade -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body ">
+        <!-- <h4> <a href="tel:+919552889415"> Call Us At </a> </h4> -->
+        <a  class="btn btn-success whatset mycenter"  href="https://wa.me/+919552889415/?text=Whatsapp Worked"> <i class="fab fa-whatsapp"></i> &nbsp; Connect Via Whatsapp</a>
+
+        <!-- <h2 style="margin-top: 20px;" class="text-center"> Call Us</h2> -->
+        <h1 style="margin: 20px 20px;" class="text-center">OR</h1>
+
+        <a style="border: 1px solid black;" class="mycenter btn callset " href="tel:+919552889415"><i class="fas fa-phone-alt text-info"></i> &nbsp; Call Us</a>
+       
+
+
+
+
+
+        
+
+    </div>
+    <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div> -->
+    </div>
+</div>
+</div>
+
+<div class="bgimg" > <!-- for parallex effect -->  
+    <div class="container text-center text-white headerset">
+        <h2>Welcome to Codders Club</h2>
+        <h3>We'll make Your dream Projects into Reality</h3>
+        <a class='btn btn-info text-center btn-lg text-white' href="#ourprojects" type="button"> Projects</a>
+    </div>
+</div>
+
+<section id='ourservises' class="container-fluid ourservices text-center">
+    <!-- ...........Our Services............  -->
+    <h1>Our Services</h1>
+    <p> we provide you best-in class service for your any project need. </p>
+
+    <div class="row rowsetting">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class='imgsetting d-block m-auto '>
+                <i class="fas fa-shopping-cart fa-4x text-white "></i>
+            </div>
+                <h2>E-Commerse </h2>
+                <p> In the current world pandemic nowadays everything is going online we would like to help in difficult times, to bring your shop online </p>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class='imgsetting d-block m-auto '>
+                <i class="fas fa-desktop fa-4x text-white"></i>
+            </div>
+                <h2> Websites </h2>
+                <p>First impressions count, and websites allow you to make a very strong impression with a well designed introduction for your business </p>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class='imgsetting d-block m-auto '>
+                <i class="fas fa-shield-alt text-white fa-4x"></i>
+            </div>
+                <h2> Web Security </h2>
+                <p>Web security is important to keeping hackers and cyber-thieves from accessing sensitive information. </p>
+        </div>
+    </div>
+</section>
+
+<section id='ourprojects' class="projects bg-light">
+    <!-- ..............Projets............ -->
+
+    <div class="container text-center">
+        <h1>Projects</h1>
+        <p>Some of our best-in class Projects For your any need</p>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto" *ngFor='let p of projects '>
+                <div class="card">
+                    <img src={{p.path}} style="height: 250px;" class="card-img img-fluid" alt="tp">
+                    <div class="card-body">
+                        <h2 class="card-title">{{p.title}}</h2>
+                        <p class="card-text">{{p.description}}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto ">
+                <div class="card">
+                    <img src="../assets/koi-rocks.jpg" style="height: 250px;" class="card-img img-fluid" alt="tp">
+                    <div class="card-body">
+                        <h2 class="card-title">Crime Report</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eveniet excepturi nam maxime explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto ">
+                <div class="card">
+                    <img src="../assets/code_touch.jpg" style="height: 250px;" class="card-img img-fluid" alt="tp">
+                    <div class="card-body">
+                        <h2 class="card-title">2nd Project</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eveniet excepturi nam maxime explicabo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto ">
+                <div class="card">
+                    <img src="../assets/win7mount.jpg" style="height: 250px;" class="card-img img-fluid" alt="tp">
+                    <div class="card-body">
+                        <h2 class="card-title">Crime Report</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eveniet excepturi nam maxime explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto ">
+                <div class="card">
+                    <img src="../assets/koi-rocks.jpg" style="height: 250px;" class="card-img img-fluid" alt="tp">
+                    <div class="card-body">
+                        <h2 class="card-title">Crime Report</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eveniet excepturi nam maxime explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto ">
+                <div class="card">
+                    <img src="../assets/code_touch.jpg" style="height: 250px;" class="card-img img-fluid" alt="tp">
+                    <div class="card-body">
+                        <h2 class="card-title">2nd Project</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic eveniet excepturi nam maxime explicabo.</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<section id='ourteam' class='ourteam' >
+
+    <div class="container-fluid text-center">
+        <h1>Our Amazing Team</h1>
+        <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo!</p> -->
+
+        <div class="row teamsetting">
+            <div *ngFor='let c of team' class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src={{c.path}} class="figure-img img-fluid rounded-circle" alt="Datta Kale" height="250px" width="250px">
+                    <figcaption class="figure-caption">
+                        <h4>{{c.name}}</h4>
+                        <p class="figure-caption">{{c.role}}</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure" >
+                    <img src="../assets/our team/me-site.png" class="figure-img img-fluid rounded-circle" alt="Datta Kale" height="250px" width="250px">
+                    <figcaption class="figure-caption">
+                        <h4>Vignesh Gawali</h4>
+                        <p class="figure-caption">Full Stack Developer</p>
+                    </figcaption>
+                </figure>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src="../assets/our team/Datta.jpeg" class="figure-img img-fluid rounded-circle" alt="Datta Kale" height="250px" width="250px">
+                    <figcaption class="figure-caption">
+                        <h4>Datta Kale</h4>
+                        <p class="figure-caption">Full Stack Developer</p>
+                    </figcaption>
+                </figure>
+                
+            </div> -->
+        </div>
+    </div>
+    
+</section>
