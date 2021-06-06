@@ -3,8 +3,8 @@
 } */
 
 .bgimg{
-    /* background-image: url(../assets/2_coders.jpg) !important ; */
-    background: linear-gradient(to right, #009fff, #ec2f4b); 
+    background-image: url(../assets/2_coders.jpg) !important ;
+/*     background: linear-gradient(to right, #009fff, #ec2f4b);  */
     background-size: 100% 100%;
     background-attachment: fixed;
     height: 700px;
