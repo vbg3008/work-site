@@ -1,10 +1,6 @@
-/* image{
-    mask-image: -moz-linear-gradient(rgba(112, 95, 126, 0.295) , rgba(0,0,0,0));
-} */
-
 .bgimg{
-    background-image: url(../assets/2_coders.jpg) !important ;
-/*     background: linear-gradient(to right, #009fff, #ec2f4b);  */
+    /* background-image: url(../assets/2_coders.jpg) !important ; */
+    background: linear-gradient(to right, #009fff, #ec2f4b); 
     background-size: 100% 100%;
     background-attachment: fixed;
     height: 700px;
@@ -185,6 +181,8 @@
 
     .bgimg{
         height: 755px;
+        background: linear-gradient(to right, #009fff, #ec2f4b); 
+
     }
 
     /* ......header........ */
@@ -223,8 +221,9 @@
 }
 @media(min-width:480px) and (max-width:574px){
     .bgimg{
-        height: 770px;
-    }
+    height: 770px;
+    background: linear-gradient(to right, #009fff, #ec2f4b); 
+}
     
     /* ......header........ */
     .headerset{
@@ -264,6 +263,8 @@
 @media(max-width:479px){
     .bgimg{
         height: 790px;
+        background: linear-gradient(to right, #009fff, #ec2f4b); 
+
     }
 
     /* ......header........ */
