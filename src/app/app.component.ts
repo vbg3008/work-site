@@ -16,17 +16,17 @@ export class AppComponent {
   ];
 
   projects:Array<project>=[
-    {title:'Proj1' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'},
+    {title:'Koi Rocks' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'},
 
-    {title:'Proj2' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'},
+    {title:'Red Tree' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/red-tree.jpg'},
 
-    {title:'Proj3' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'},
+    {title:'Elephant' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/elephant.jpg'},
 
-    {title:'Proj1' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'},
+    {title:'Mount' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/win7mount.jpg'},
 
-    {title:'Proj2' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'},
+    {title:'Code' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/code_touch.jpg'},
 
-    {title:'Proj3' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'}
+    {title:'Koi Rocks' , description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam at ipsa nesciunt ad, numquam atque perferendis alias deleniti sunt nulla.' , path:'../assets/koi-rocks.jpg'}
   ];
 
 }

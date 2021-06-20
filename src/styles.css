@@ -33,6 +33,31 @@ nav{
     margin-left: 50px;
 }
 
+.nav-hov{
+    display: inline-block;
+    position: relative;
+    
+}
+.nav-hov:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9A5589;
+    transform-origin: bottom right;
+    transition: transform 0.15s ease-out;
+    z-index: 2;
+  }
+  
+  .nav-hov:hover:after {
+    transform: scaleX(1);
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
 /* ........Modal...... */
 .whatset{
     background-color: #36ca85;
@@ -92,6 +117,7 @@ footer h5{
         opacity: 1;
         /* padding-bottom: 10px; */
     }
+    
 
 }
 
