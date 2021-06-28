@@ -144,13 +144,12 @@
     <div class="container-fluid text-center">
         <h1>Our Amazing Team</h1>
         <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo!</p> -->
-
         <div class="row teamsetting">
             <div *ngFor='let c of team' class="col-lg-3 col-md-3 col-sm-10 col-12 d-block m-auto">
                 <figure class="figure">
                     <img src={{c.path}} class="figure-img img-fluid rounded-circle" alt="{{ c.name }}" height="250px" width="250px">
                     <figcaption class="figure-caption">
-                        <h4>{{c.name}}</h4>
+                        <h4><b>{{c.name}}</b></h4>  
                         <p class="figure-caption">{{c.role}}</p>
                     </figcaption>
                 </figure>
