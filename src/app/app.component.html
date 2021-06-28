@@ -62,10 +62,10 @@
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
             <div class='imgsetting d-block m-auto '>
-                <i class="fas fa-shield-alt text-white fa-4x"></i>
+                <i class="fas fa-microchip text-white fa-4x"></i>
             </div>
-                <h2> Web Security </h2>
-                <p>Web security is important to keeping hackers and cyber-thieves from accessing sensitive information. </p>
+                <h2> Hardware </h2>
+                <p>Hardware projects are real time , and real world examples of how our project gonna help world. </p>
         </div>
     </div>
 </section>
@@ -146,9 +146,9 @@
         <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo!</p> -->
 
         <div class="row teamsetting">
-            <div *ngFor='let c of team' class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+            <div *ngFor='let c of team' class="col-lg-3 col-md-3 col-sm-10 col-12 d-block m-auto">
                 <figure class="figure">
-                    <img src={{c.path}} class="figure-img img-fluid rounded-circle" alt="Datta Kale" height="250px" width="250px">
+                    <img src={{c.path}} class="figure-img img-fluid rounded-circle" alt="{{ c.name }}" height="250px" width="250px">
                     <figcaption class="figure-caption">
                         <h4>{{c.name}}</h4>
                         <p class="figure-caption">{{c.role}}</p>

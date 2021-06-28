@@ -10,9 +10,11 @@ export class AppComponent {
   title = 'CodderscluB';
 
   team:Array<ourteam>=[
-    {name:'Tejas Dixit' , role:'Back-End Developer' , path:'../assets/our team/person.jpg'},
-    {name:'Vignesh Gawali' , role:'Full-Stack Developer' , path:'../assets/our team/person.jpg'},
-    {name:'Datta Kale' , role:'Full-Stack Developer' , path:'../assets/our team/person.jpg'}
+    {name:'Tejas Dixit' , role:'Back-End Developer' , path:'../assets/our team/Tejas.jpeg'},
+    {name:'Vignesh Gawali' , role:'Full-Stack Developer' , path:'../assets/our team/VBG.jpeg'},
+    {name:'Datta Kale' , role:'Full-Stack Developer' , path:'../assets/our team/Datta.jpeg'},
+    {name:'Kunal Jagate' , role:'Full-Stack Developer' , path:'../assets/our team/Kunal.jfif'}
+
   ];
 
   projects:Array<project>=[
