@@ -1,12 +1,41 @@
 .bgimg{
     /* background-image: url(../assets/2_coders.jpg) !important ; */
-    background: linear-gradient(to right, #009fff, #ec2f4b); 
+    /* background: linear-gradient(to right, #009fff, #ec2f4b);  */
+/* background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);  */
+background-image: linear-gradient(315deg, #fefefe 0%, #00a4e4 74%);
+/* background: linear-gradient(165deg, #dcffc3, #7cebf1); */
+
     background-size: 100% 100%;
     background-attachment: fixed;
     height: 700px;
     width: 100%;
     z-index: 1;
 }
+.bgbutt-hov{
+    display: inline-block;
+    position: relative;
+    
+}
+.bgbutt-hov:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.15s ease-out;
+    z-index: 2;
+  }
+  
+  .bgbutt-hov:hover:after {
+    transform: scaleX(1);
+    z-index: 2;
+    transform-origin: bottom left;
+  }
+
 .headerset{
     padding: 230px;
     box-sizing: border-box;
@@ -31,7 +60,7 @@
 }
 
 .rowsetting{
-    margin: 80px 0px !important;
+    margin: 60px 0px !important;
 }
 .rowsetting p{
     color: #6c757d !important;
@@ -78,7 +107,7 @@
 .ourteam{
     height: 600px;
     width: 100%;
-    padding: 50px 0px 0px;   
+    padding: 50px 0px 0px;  
 }
 
 .ourteam h1{
@@ -202,7 +231,7 @@
     /* ......ourService...... */
     .ourservices{
         padding: 75px 0px 60px;
-        height: 650px;
+        height: 690px;
     }
 
     /* ......projects.......... */
@@ -214,7 +243,7 @@
 
     /* ........ourteam........ */
     .ourteam{
-        height: 1200px;
+        height: 1550px;
         width: 100%;
         padding: 50px 0px 0px;   
     }
@@ -241,8 +270,11 @@
 
     /* ......ourService...... */
     .ourservices{
-        padding: 80px 0px 60px;
-        height: 1300px;
+        padding: 80px 0px 20px;
+        height: 1200px;
+    }
+    .ourservices p{
+        padding: 5px 20px 0px;
     }
 
     /* ......projects.......... */
@@ -254,7 +286,7 @@
 
     /* ........ourteam........ */
     .ourteam{
-        height: 1300px;
+        height: 1560px;
         width: 100%;
         padding: 50px 0px 0px;   
     }
@@ -284,7 +316,10 @@
     /* ......ourService...... */
     .ourservices{
         padding: 65px 0px 60px;
-        height: 1230px;
+        height: 1260px;
+    }
+    .ourservices p{
+        padding: 5px 20px 0px;
     }
 
     /* ......projects.......... */
@@ -296,7 +331,7 @@
 
     /* ........ourteam........ */
     .ourteam{
-        height: 1260px;
+        height: 1650px;
         width: 100%;
         padding: 50px 0px 0px;   
     }
